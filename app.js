@@ -30,9 +30,10 @@ app.get("/", (req, res) => {
 // app.listen(3003, '0.0.0.0',() => {
 //   console.log("Server is up and listening on 3003....")
 // })
-
-app.listen(3003, () => {
-  console.log("Server is up and listening on 3003....")
+const PORT = process.env.PORT || 3003
+//localhost Port
+app.listen(PORT, () => {
+  console.log("Server is up and listening on" + PORT)
 })
 
 
