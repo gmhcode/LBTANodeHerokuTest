@@ -9,7 +9,7 @@ const pool = mysql.createPool({
     host: 'us-cdbr-iron-east-01.cleardb.net',
     user: 'b5dbc53232cbaf',
     password: 'f110dc37',
-    database: 'lbta_mysql_fixed'
+    database: 'heroku_2fa6c992d6d1e2b'
 })
 
 function getConnection() {
