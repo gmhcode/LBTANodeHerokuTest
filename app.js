@@ -10,6 +10,7 @@ app.use(express.static('./public'))
 app.use(router)
 app.use(morgan('short'))
 
+
 app.get("/", (req, res) => {
   console.log("Responding to root route")
   res.send("Hello from ROOOOOOT")
