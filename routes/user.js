@@ -58,7 +58,7 @@ router.post('/user_create', (req, res) => {
         }
 
         console.log("Inserted a new user with id: ", results.insertId)
-        res.end
+        res.end()
     })
 
 })
